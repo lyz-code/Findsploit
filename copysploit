@@ -3,7 +3,6 @@
 # A small script to automatically find and copy an exploit file to the current directory...
 #
 
-EDITOR='gedit' # PREFERED TEXT EDITOR
 COLOR1='\033[1m\033[91m'
 COLOR2='\033[1m\033[92m'
 COLOR3='\033[1m'
@@ -21,7 +20,7 @@ function logo {
 	echo ""
 }
 
-if [ -z "$1" ]; 
+if [ -z "$1" ];
 then
 	logo
 	echo ""
